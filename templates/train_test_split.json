@@ -1,0 +1,32 @@
+{
+  "train": [
+    "/home/wootc/Downloads/sampleCaptchas/input/input19.jpg",
+    "/home/wootc/Downloads/sampleCaptchas/input/input08.jpg",
+    "/home/wootc/Downloads/sampleCaptchas/input/input24.jpg",
+    "/home/wootc/Downloads/sampleCaptchas/input/input12.jpg",
+    "/home/wootc/Downloads/sampleCaptchas/input/input23.jpg",
+    "/home/wootc/Downloads/sampleCaptchas/input/input11.jpg",
+    "/home/wootc/Downloads/sampleCaptchas/input/input14.jpg",
+    "/home/wootc/Downloads/sampleCaptchas/input/input01.jpg",
+    "/home/wootc/Downloads/sampleCaptchas/input/input17.jpg",
+    "/home/wootc/Downloads/sampleCaptchas/input/input02.jpg",
+    "/home/wootc/Downloads/sampleCaptchas/input/input100.jpg",
+    "/home/wootc/Downloads/sampleCaptchas/input/input00.jpg",
+    "/home/wootc/Downloads/sampleCaptchas/input/input10.jpg"
+  ],
+  "test": [
+    "/home/wootc/Downloads/sampleCaptchas/input/input21.jpg",
+    "/home/wootc/Downloads/sampleCaptchas/input/input20.jpg",
+    "/home/wootc/Downloads/sampleCaptchas/input/input18.jpg",
+    "/home/wootc/Downloads/sampleCaptchas/input/input15.jpg",
+    "/home/wootc/Downloads/sampleCaptchas/input/input09.jpg",
+    "/home/wootc/Downloads/sampleCaptchas/input/input07.jpg",
+    "/home/wootc/Downloads/sampleCaptchas/input/input03.jpg",
+    "/home/wootc/Downloads/sampleCaptchas/input/input22.jpg",
+    "/home/wootc/Downloads/sampleCaptchas/input/input16.jpg",
+    "/home/wootc/Downloads/sampleCaptchas/input/input06.jpg",
+    "/home/wootc/Downloads/sampleCaptchas/input/input04.jpg",
+    "/home/wootc/Downloads/sampleCaptchas/input/input05.jpg",
+    "/home/wootc/Downloads/sampleCaptchas/input/input13.jpg"
+  ]
+}

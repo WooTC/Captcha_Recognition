@@ -7,12 +7,12 @@ output = captcha_reader(im_path, save_path)
 ```
 Requirements : OpenCV, Numpy
 ### Template preparation (optional)
-To update the templates used in template-matching with a different random seed, run on command line 
+To update the templates used in template matching with a different random seed, run on command line 
 ```
 $ python template_creation.py --input_path PATH_TO_"sampleCaptchas" --seed 0
 ```
 The script will 
-* (semi) randomly split the samples into training/testing, while ensuring all the characters (`A-Z`, `0-9`) appear in the training samples for at least once.
+* randomly split the samples into training/testing, while ensuring all the characters (`A-Z`, `0-9`) appear in the training samples for at least once.
 * save the split to `templates/train_test_split.json`.
 * save all the templates to `templates` folder in PNG format.
 ### Pipeline
@@ -24,7 +24,7 @@ As the placement of the characters are fixed, the image is first cropped to excl
 Otsu algorithm is then applied to convert the image to binary. 
 <img src="./images/thresholding.png" width="400">    
 #### Split the letters 
-We make use of the fact that all characters are 9 pixels wide and separated by 1 pixel to split the image into letters.
+We make use of the fact that all characters are 8 pixels wide and separated by 1 pixel to split the image into letters.
 #### Template matching
 
 
@@ -46,7 +46,7 @@ M|6|O|6|1|6|Q|6|E|6|V|7
 ---|---|---
 <img src="./images/Es.png" width="150">|<img src="./images/Qs.png" width="150">|<img src="./images/Ws.png" width="100">
 
-Based on these observations, we believe any machine learning-based approach would have similar results, hence we just used the most straightforwards one, i.e. template matching for character recognition.
+Based on these observations, we believe any machine learning-based approach would have similar results, hence we just used the most straightforward one, i.e. template matching for character recognition.
 
 ### Performance
 
